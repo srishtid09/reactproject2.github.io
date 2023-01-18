@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap'); 
+
+
+
+*{
+margin:0px;
+padding:0px;
+
+
+
+}
+.adv{
+    display: flex;
+
+    background: linear-gradient(180deg,#c12ae7 19.88%,#f0e65c 189.63%);
+    /* border: 2px solid green; */
+
+    margin-bottom: 5px;
+    height: 10vh;
+    width: 100vw;
+
+    border-bottom: 1px solid black;
+
+    text-align: center;
+    justify-content:space-evenly;
+    color: white;
+border-bottom: 1px solid black;
+
+}
+.h0
+{
+    margin:10px 0px;
+    font-family: lato;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 0px;
+
+}
+.nav{
+    display: flex;
+    background-color:whitesmoke;
+    height: 10vh;
+    width: 100vw ;
+    justify-content: space-around;
+
+border-bottom:1px solid gray;
+
+}
+
+.nav ul li {
+    /* text-decoration: none; */
+    list-style: none;
+    
+
+
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: lato;
+}
+.navimg{
+    margin-top: 15px;
+    margin-left: 20px;
+    
+
+
+}
+.navul{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    height: 30vh;
+
+margin-top: 20px;
+}
+
+.signbtn{
+    /* float: left; */
+  
+
+        border: none;
+        padding: 10px 10px;
+        color:white;
+    
+        font-weight: bold;
+        width: 150px;
+        background: linear-gradient(93.22deg,#303abb 1.03%,#448091 97.94%);
+        margin-bottom: 5px;
+        border-radius: 5px;
+   
+}
+.logbtn{
+    /* float: left; */
+  
+
+        /* border: none; */
+        padding: 10px 10px;
+        /* color: #016f01; */
+        color: linear-gradient(93.22deg,#303abb 1.03%,#3ca5c2 97.94%);;
+    
+        font-weight: bold;
+        width: 150px;
+        /* background: linear-gradient(93.22deg,#303abb 1.03%,#3ca5c2 97.94%); */
+        background: white;
+
+        margin-bottom: 5px;
+        border-radius: 5px;
+   
+}
+
+.hoverbtn{
+    background-color: rgb(63, 97, 80);
+
+}
+
+
+.con1{
+
+display: grid;
+
+    grid-template-columns:repeat(10,1fr) ;
+    grid-template-rows:repeat(20,30px) ;
+
+
+}
+.info0{
+
+    grid-column-start:2;
+    grid-column-end:6;
+    grid-row-start:5 ;
+    grid-row-end:15 ;
+    /* background-color: #f0e65c; */
+    border: 2px solid black;
+
+font-family: lato;
+font-size: 30px;
+color: linear-gradient(93.22deg,#303abb 1.03%,#3ca5c2 97.94%);;
+}
+
+#top
+{
+    color: #4f516b;
+}
+.info0 h1 a{
+
+    text-decoration: none;
+
+}
+
+
+.bahar{
+    height: 7vh;
+    width: 18vw;
+    /* background-color: #e53755; */
+    background: linear-gradient(93.22deg,#303abb 1.03%,#3ca5c2 97.94%);
+    margin: 
+    -71px 151px;
+    border-radius: 10px;
+    text-align: center;
+
+    color: aliceblue;
+    
+/* font-family: lato; */
+font-size: 20px;
+/* border: 2px solid lime; */
+
+}
+.bahar div{
+    /* margin-top: 5px;
+     */
+     padding-top: 12px;
+}
+.watch{
+    border: 2px solid rgba(127, 37, 37, 0.637);
+    display: grid;
+    
+    grid-template-columns:repeat(5,1fr) ;
+    grid-template-rows:repeat(6,5px) ;
+
+
+}
+.bahar div{
+
+    grid-column-start:2;
+    grid-column-end:6;
+    grid-row-start:3 ;
+    grid-row-end: 15;
+}
+
+
+.form0{
+    grid-column-start:7;
+    grid-column-end:10;
+    grid-row-start:3 ;
+    grid-row-end: 17;
+
+border: 2px solid rgb(99, 2, 18);
+z-index: 2;
+
+background-color: antiquewhite;
+border-radius: 10px;
+}
+
+.side0{
+
+     /* border: 5px solid black; */
+
+ grid-column-start:9;
+    grid-column-end:13;
+    grid-row-start:1;
+    grid-row-end: 20;
+    background: linear-gradient(93.22deg,#303abb 1.03%,#3ca5c2 97.94%);  
+
+}
+
+.form0box{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.intro-form-title
+{
+
+    color: #4f516b;
+font-family: Poppins-Regular;
+font-size: 1vw;
+font-weight: 400;
+text-align: center;
+
+}
+
+.intro-form-title2
+{
+
+    margin-top: 1vh;
+font-family: Poppins;
+font-weight: 700;
+font-size: 24px;
+margin-bottom: 1vh;
+color: #4f516b;
+font-weight: 600;
+text-align: center;
+}
+
+.formtext{
+    margin: 16px 41px;
+    padding: 17px 10px;
+    font-size: 15px;
+
+}
+
+.bookbtn
+{
+    display: flex;
+justify-content: center;
+text-align: center;
+
+    height: 50px;
+    margin:3px 68px;
+    width: 300px;
+    background: linear-gradient(93.22deg,#303abb 1.03%,#3ca5c2 97.94%);
+    border-radius:10px ;
+
+    color: white;
+
+}
+.bookbtn p{
+    padding: 15px 10px;
+}
